@@ -154,7 +154,7 @@ int main( int argc, char *argv[] )
   }
 
   n = 0;
-  while ( fgets(line, sizeof( line ) - 1, stdin) )
+  while ( fgets(line, sizeof( line ) - 1, fp) )
   {
     if ( ++n < headlines || num_stops < 1 )
     {
